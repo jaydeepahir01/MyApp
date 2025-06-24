@@ -10,9 +10,9 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # load the saved models
-diabetes_model = pickle.load(open('/Users/jaydeepahir/Documents/Study/Internship/Intership Trained Classifier Model/diabetes_model.sav','rb'))
-heart_diaseases_model = pickle.load(open('/Users/jaydeepahir/Documents/Study/Internship/Intership Trained Classifier Model/heart_model.sav','rb'))
-parkinsons_model = pickle.load(open('/Users/jaydeepahir/Documents/Study/Internship/Intership Trained Classifier Model/pakinsons_model.sav','rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav','rb'))
+heart_diaseases_model = pickle.load(open('heart_model.sav','rb'))
+parkinsons_model = pickle.load(open('pakinsons_model.sav','rb'))
 
 # make a sidebar fro navigation 
 with st.sidebar:
